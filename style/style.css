@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Open Sans' , sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.sobre-container{
+
+    background-image: url("../img/sobre-bg.png");
+    
+}
+
+
+.paper-texture{
+    background-image: url("../img/paper-texture.jpg");
+}
